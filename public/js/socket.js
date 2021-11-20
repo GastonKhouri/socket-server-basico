@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8080');
+const socket = io();
 
 // Referencias a elementos del dom
 const formulario = document.querySelector('#miFormulario');
